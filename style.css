@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #bdeed9c7;
+}
+
+main {
+    background-color: white;
+    width:800px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+} 
+
+.titulo {
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(20, 155, 20);
+    color: aliceblue;
+}
+
+.lista{
+    list-style-type:lower-roman;
+}
+
+li {
+    font-size: 1.6em;
+}
+
+.topo {
+    height: 190px;
+    background-image: url(imagens/topo-unoeste-b3.jpg );
+    background-position: center;
+}
+
+.corpo {
+    height: 310px;
+    margin: auto;
+    width: 250px;
+}
+
+caption{
+    font-size: 1.5em;
+}
+
+.alinha, th {
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+
+  img {
+    width: 120px;
+}
+
+.tabela1 {
+    margin: 0 auto;
+}
+
+table {
+    width: 700px;
+    border-collapse: separate;
+}
+
+th, td {
+    padding: 8px;
+}
+
+.linha1 {
+    background-color: #f3fcd9;
+}
+
+.linha2 {
+    background-color: rgb(170, 172, 164);
+}
+
+.linha3 {
+    background-color: rgb(73, 234, 240);
+}
+
+.linha4 {
+    background-color: #f3fcd9;
+}
+
+.linha5 {
+    background-color: rgb(170, 172, 164);
+}
+ 
+.linha6 {
+    background-color: rgb(73, 234, 240);  
+  
+}
+
+.nome {
+    height: 30px;
+    width: 250px;
+    background-color: aqua;
+    left: 10px;
+    top: 20px;
+}
