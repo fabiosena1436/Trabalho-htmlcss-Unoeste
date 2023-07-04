@@ -11,11 +11,12 @@ body {
 
 main {
     background-color: white;
-    width:800px;
+    width: 100%; /* Change width to 100% to make it responsive */
+    max-width: 800px; /* Set a maximum width */
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
-} 
+}
 
 .titulo {
     font-size: 2em;
@@ -24,8 +25,8 @@ main {
     color: aliceblue;
 }
 
-.lista{
-    list-style-type:lower-roman;
+.lista {
+    list-style-type: lower-roman;
 }
 
 li {
@@ -34,27 +35,28 @@ li {
 
 .topo {
     height: 190px;
-    background-image: url(imagens/topo-unoeste-b3.jpg );
+    background-image: url(imagens/topo-unoeste-b3.jpg);
     background-position: center;
+    background-size: cover; /* Add background-size: cover to ensure the image covers the entire element */
 }
 
 .corpo {
     height: 310px;
     margin: auto;
-    width: 250px;
+    max-width: 250px; /* Set a maximum width */
 }
 
-caption{
+caption {
     font-size: 1.5em;
 }
 
 .alinha, th {
     margin: 0 auto;
     border: 1px solid black;
-  }
+}
 
-  img {
-    width: 120px;
+img {
+    width: 100%; /* Change width to 100% to make images responsive */
 }
 
 .tabela1 {
@@ -62,7 +64,7 @@ caption{
 }
 
 table {
-    width: 700px;
+    width: 100%; /* Change width to 100% to make tables responsive */
     border-collapse: separate;
 }
 
@@ -89,15 +91,15 @@ th, td {
 .linha5 {
     background-color: rgb(170, 172, 164);
 }
- 
+
 .linha6 {
-    background-color: rgb(73, 234, 240);  
-  
+    background-color: rgb(73, 234, 240);
 }
 
 .nome {
     height: 30px;
-    width: 250px;
+    width: 100%; /* Change width to 100% to make the element responsive */
+    max-width: 250px; /* Set a maximum width */
     background-color: aqua;
     left: 10px;
     top: 20px;
